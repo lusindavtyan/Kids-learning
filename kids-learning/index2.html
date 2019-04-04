@@ -1,0 +1,92 @@
+<!Doctype html>
+<html lan="en">
+<head>
+    <title>Learn The Alphabet</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles2.css"> 
+      
+</head>
+
+    <body>
+        <a href="index2.html"></a>
+    
+        <div class="container-fluid">
+            <h1>Playing With Alphabet</h1>
+            <h4>Arrange Letters in Alphabetical Order</h4> 
+            
+            <div class="row">
+                <div class="col-sm-7 col-md-6" style="background-color:#6f979d;"> 
+                    <table class="table table-bordered">
+                         <tbody>
+                         <tr id = "row0">
+                           <td id = "cellA">A</td>
+                         </tr>
+                          <tr>
+                           <td id = "cell1" onclick="arrangeLetters(id)"></td>
+                           <td id = "cell2" onclick="arrangeLetters(id)"></td>
+                           <td id = "cell3" onclick="arrangeLetters(id)"></td>
+                           <td id = "cell4" onclick="arrangeLetters(id)"></td>
+                           <td id = "cell5" onclick="arrangeLetters(id)"></td>
+                          </tr>
+                          <tr>
+                           <td id = "cell6" onclick="arrangeLetters(id)"></td>
+                           <td id = "cell7" onclick="arrangeLetters(id)"></td>
+                           <td id = "cell8" onclick="arrangeLetters(id)"></td>
+                           <td id = "cell9" onclick="arrangeLetters(id)"></td>
+                           <td id = "cell10" onclick="arrangeLetters(id)"></td>
+                          </tr>
+                          <tr>
+                            <td id = "cell11" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell12" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell13" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell14" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell15" onclick="arrangeLetters(id)"></td>
+                          </tr>
+                              <tr>
+                            <td id = "cell16" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell17" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell18" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell19" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell20" onclick="arrangeLetters(id)"></td>
+                          </tr>
+                          <tr>
+                            <td id = "cell21" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell22" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell23" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell24" onclick="arrangeLetters(id)"></td>
+                            <td id = "cell25" onclick="arrangeLetters(id)"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                     <div class="row">
+                   <div class="col-sm-12 col-md-12" style="background-color:#6f979d;">
+                  <div class="container">
+                    <span class="correct-incor">Correct &check; </span>
+                    <span class="correct-incor"> Incorrect &cross;</span>
+                    <span id="btn"></span>
+                   </div>
+                   <div class="container">
+                    <button id = "start-bt" onclick="fillCellsLetters()">Start</button>
+                    <button id = "show-sec" onclick="stopSeconds()">Stop</button>
+                   </div>
+                   <div class="container">
+                    <button id = "seconds"></button>
+                   </div>
+                     
+                    </div>
+                   </div>
+                </div>
+                <div class="col-sm-6 col-md-6" style="background-color:#6f979d;">     <h4>&check; Instructions</h4>
+                    <p class ="inst-par">When clicking on <i>Start</i> button, the random letters appear inside the table cells. Click on each letter in the right sequence. When the sequence is right the letter turns to <span style = "color: #008000">green</span>, when it's wrong the letter turns to <span style = "color: #ff0000">red </span>. Click on <i>Stop</i> button to see the time you spent on it. 
+                    </p>
+                </div>
+             
+                </div>
+            </div>
+        
+        <script src="js/game.js"></script>
+    </body>  
+</html>

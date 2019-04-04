@@ -1,0 +1,78 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+ /*---------------------------------------------*/ 
+/*TABLE*/
+  body {
+    background-color: #f0f0dc;
+  }
+  .table{
+      width: 300px;
+      height: 300px;
+      margin: 20px auto;
+      border: 2px solid #fff;
+  }
+  .table td {
+      font-size: 18px;
+      background-color: rgba(241, 253, 255, 0.44);
+      box-shadow: 0 5px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+  }
+  #cellA {
+      width: 53px;
+      height: 53px; 
+      font-size: 18px;
+  }
+  
+/*---------------------------------------------*/ 
+/*BUTTONS*/
+  
+  .container {
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  
+  .row {
+      padding: 20px
+  }
+  
+#start-bt, #show-sec, #seconds {
+      width: 80px;
+      height: 40px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+      background-color: #262a2a;
+      box-shadow: 0 8px 16px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+      color: #f0f8ff;
+  }
+  #start-bt:hover, #show-sec:hover {
+      box-shadow: 0 3px 10px 0 rgb(0, 0, 0), 0 3px 10px 0 rgb(0, 0, 0);
+  }
+  
+  .correct-incor {
+      font-size: 20px;
+      padding-left: 10px;
+  }
+
+/*---------------------------------------------*/ 
+/*HEADINGS*/
+
+  h1, h4 {
+      text-align: center;
+  }
+  h4 {
+      padding-top: 50px;
+      font-size: 30px;    
+  }
+  p {
+      text-align: justify;
+      font-size: 18px;
+      line-height: 2.1;
+  }
+
+  /*The End*/
